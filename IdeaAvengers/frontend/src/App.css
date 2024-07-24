@@ -101,6 +101,7 @@ main {
 }
 
 .get-started {
+  display: inline-block;
   background-color: #3A6838;
   color: #FFFFFF;
   border: none;
@@ -111,6 +112,8 @@ main {
   margin-top: 70px;
   width: 300px;
   margin: auto;
+  text-align: center;
+  text-decoration: none;
 }
 
 .get-started:hover {
