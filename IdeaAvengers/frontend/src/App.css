@@ -62,11 +62,9 @@ nav ul li a {
 }
 
 main {
+  padding: 40px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: calc(100vh - 80px);
-  text-align: center;
 }
 
 .hero {
@@ -109,33 +107,7 @@ main {
   padding: 15px 30px;
   cursor: pointer;
   border-radius: 20px;
-  font-size: 16px;
-  margin-top: 70px;
-  width: 300px;
-  margin: auto;
-}
-
-.get-started:hover {
-  background-color: #2F5530;
-}
-
-.hero-text p {
-  color: #B35A34;
   font-size: 20px;
-  margin: 0;    
-  margin-bottom: 70px;
-  font-weight: bold;
-  text-align: right;
-}
-
-.get-started {
-  background-color: #3A6838;
-  color: #FFFFFF;
-  border: none;
-  padding: 15px 30px;
-  cursor: pointer;
-  border-radius: 20px;
-  font-size: 16px;
   margin-top: 70px;
   width: 300px;
   margin: auto;
@@ -143,4 +115,36 @@ main {
 
 .get-started:hover {
   background-color: #2F5530;
+}
+
+.text-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #F8F4E6;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  background-color: #6C8F32;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
 }
